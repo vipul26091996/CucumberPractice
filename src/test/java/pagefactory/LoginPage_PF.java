@@ -17,7 +17,7 @@ public class LoginPage_PF {
 	
 	@FindBy(id = "login")
 	WebElement btn_login;
-	
+		
 	public LoginPage_PF(WebDriver driver)
 	{
 		this.driver=driver;
